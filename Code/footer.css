@@ -1,0 +1,56 @@
+.bar{
+    background-color: rgb(21, 3, 56);
+    border-top: 1px solid rgb(146, 131, 131);
+    height: 50vh;
+    color: white;
+}
+.addinfo{
+   
+    display: inline-block;
+    
+}
+a img{
+    height: 70px;
+    /* border: 1px solid black;
+    border-radius: 100px; */
+    /* background-color: white; */
+   
+   /* padding-bottom: 50px;  */
+   padding: 10px;
+}
+.social{
+display:flex;
+justify-content: center;
+/* padding: 10px; */
+}
+.qual{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center; 
+    
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+
+}
+.qual img{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+span{
+    font-weight: bold;
+}
+.qual1{
+    padding: 10px;
+}
+.qual2{
+    padding: 10px;
+}
+.qual3{
+    padding: 10px;
+}

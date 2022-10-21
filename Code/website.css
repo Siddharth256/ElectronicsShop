@@ -1,0 +1,346 @@
+/* .Navbar{
+    display: flex;
+} */
+/* body{
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg');} */
+.logo {
+    height: 30px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+*{
+  font-family: 'Oswald', sans-serif;
+}
+.flex-con {
+    /* border: 6px double rgb(243, 249, 243); */
+    display: flex;
+    background-color: rgb(79, 112, 230);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    /* border-radius: 30px; */
+    margin: 0;
+    margin-bottom: 3px;
+    position:sticky;
+    /* width: 93vw; */
+    padding-right: 40px;
+    /* opacity:0.8; */
+}
+
+.search {
+    margin-left: auto;
+    border-radius: 15px; 
+     padding-left: 15px;
+    border: 1px solid rgb(79, 112, 230); 
+    width: 10vw;
+    /* border-color: rgb(79, 112, 230); */
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 255, 251);
+    /* background-color: rgb(225, 61, 72); */
+   
+}
+
+
+.head{ 
+    width: 100%;
+    height: 100%;
+   /* height: 600px;
+   width: 600px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.top-left {
+    position: absolute;
+    top: 77px;
+    left: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  }
+  
+  .scroll{
+ 
+    height: 450px;
+    width:1000px;
+   
+  } 
+/* body{
+    background-color: rgb(228, 228, 247);
+} */
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 7);
+    height: 450px;
+    width:auto;
+  }
+ 
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/5 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .active, .dot:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name:fade;
+    animation-duration: 1.0s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .text{
+    color: #ffffff;
+    font-size: large;
+    font-weight:100;
+    font-family: 'Oswald', sans-serif;
+    border: 4px solid  rgb(47, 88, 236);
+    border-radius: 25px;
+    background-color:  rgb(49, 87, 227);
+    box-sizing: content-box;
+    width: 25%;
+    animation-name:fade;
+    animation-duration: 1.0s;
+    font-style: italic;
+  }
+  section>div {
+    /* border: 7px solid rgb(253, 253, 8); */
+    padding: 15px;
+    height:fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#phone1{
+    padding: 20px;
+}
+div.items {
+    /* border: 7px solid rgb(255, 162, 0); */
+   
+    padding: 20px;
+    display: flex;
+    /* display: inline-block; */
+    justify-content:space-evenly;
+}
+
+div.phone {
+    border: 1px solid rgb(0, 0, 0);
+/*    
+    width: 40vw; */
+    text-align: center;
+    border-radius: 10px;
+    /* height: 50vh; */
+    height:fit-content;
+  
+    /* display: flex; */
+}
+
+div.phone:hover {
+    /* bottom: -50px; */
+    box-shadow: 10px 10px 10px rgb(169, 164, 164);
+    transition: 0.3s ease;
+    scale:calc(1.04);
+}
+
+.phone a {
+    text-decoration: none;
+    text-align: center;
+}
+
+img {
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+a {
+    color: black;
+}
+.phone a img{height: 15rem;}
+.price {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.price div {
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.buy {
+   /* margin-top: auto;
+   margin-bottom: auto; */
+   margin: auto;
+    background-color: rgb(53, 82, 213);
+    border-radius: 9px;
+    cursor: pointer;
+    width: 20vw;
+    height: 5vh;
+
+}
+
+.buy a {
+ 
+    color: white;
+    text-decoration: none;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+.oldprice {
+    text-decoration: line-through;
+    color: rgb(167, 165, 165);
+}
+.buy:hover{
+    background-color: rgb(23, 58, 200);
+    
+}
+.bar{
+  background-color: rgb(11, 6, 18);
+  border-top: 1px solid rgb(146, 131, 131);
+  height: 50vh;
+  color: #ffffff;
+}
+.addinfo{
+  /* border: 5px solid rgb(255, 254, 254); */
+  display: inline-block;
+  
+}
+a img{
+  height: 5rem;
+  /* border: 1px solid black;
+  border-radius: 100px; */
+  /* background-color: white; */
+ 
+ /* padding-bottom: 50px;  */
+ padding: 10px;
+ 
+}
+.social{
+display:flex;
+justify-content: center;
+/* padding: 10px; */
+}
+.qual{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center; 
+  
+}
+.line{
+  display: flex;
+  justify-content: space-between;
+
+}
+.qual img{
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  
+}
+
+span{
+  font-weight:500;
+}
+.qual1{
+  padding: 10px;
+}
+.qual2{
+  padding: 10px;
+}
+.qual3{
+  padding: 10px;
+}

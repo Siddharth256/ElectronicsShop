@@ -1,0 +1,29 @@
+.conform{
+    /* border: 3px solid black; */
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+#situation{
+    height: 20em;
+}
+input{
+    width: 50em;
+    height: 3em;
+}
+form div{
+    padding: 5px;
+}
+button{
+    background-color: rgb(35, 163, 9);
+    color: white;
+    width: 30rem;
+    height: 2rem;
+    
+}
+button:hover{
+    background-color: rgb(6, 161, 27);
+    color: white;
+    cursor: pointer;
+}
